@@ -1,0 +1,13 @@
+C:\Users\Francisco\Documents\Facultad\Laboratorio de programacion II\TP labo programacion II\bin\Release\TP labo programacion II.exe.config
+C:\Users\Francisco\Documents\Facultad\Laboratorio de programacion II\TP labo programacion II\bin\Release\TP labo programacion II.exe
+C:\Users\Francisco\Documents\Facultad\Laboratorio de programacion II\TP labo programacion II\bin\Release\TP labo programacion II.pdb
+C:\Users\Francisco\Documents\Facultad\Laboratorio de programacion II\TP labo programacion II\obj\Release\TP labo programacion II.csprojAssemblyReference.cache
+C:\Users\Francisco\Documents\Facultad\Laboratorio de programacion II\TP labo programacion II\obj\Release\TP_labo_programacion_II.FormPrincipal.resources
+C:\Users\Francisco\Documents\Facultad\Laboratorio de programacion II\TP labo programacion II\obj\Release\Parte_3_del_TP_de_LPII.FormParte3.resources
+C:\Users\Francisco\Documents\Facultad\Laboratorio de programacion II\TP labo programacion II\obj\Release\Parte_3_del_TP_de_LPII.FormNumeroLineas.resources
+C:\Users\Francisco\Documents\Facultad\Laboratorio de programacion II\TP labo programacion II\obj\Release\Problema_de_la_L.FormPL.resources
+C:\Users\Francisco\Documents\Facultad\Laboratorio de programacion II\TP labo programacion II\obj\Release\TP_labo_programacion_II.Properties.Resources.resources
+C:\Users\Francisco\Documents\Facultad\Laboratorio de programacion II\TP labo programacion II\obj\Release\Problema_del_Viajante.FormViajante.resources
+C:\Users\Francisco\Documents\Facultad\Laboratorio de programacion II\TP labo programacion II\obj\Release\TP labo programacion II.csproj.GenerateResource.cache
+C:\Users\Francisco\Documents\Facultad\Laboratorio de programacion II\TP labo programacion II\obj\Release\TP labo programacion II.exe
+C:\Users\Francisco\Documents\Facultad\Laboratorio de programacion II\TP labo programacion II\obj\Release\TP labo programacion II.pdb

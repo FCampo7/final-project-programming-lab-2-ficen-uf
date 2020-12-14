@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75FFDA31-DA6A-44DA-BD1F-AE1EE0C2EA4C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TP_labo_programacion_II</RootNamespace>
+    <AssemblyName>TP labo programacion II</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parte III\cOrdenador.cs" />
+    <Compile Include="Parte III\FormParte3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parte III\FormParte3.designer.cs">
+      <DependentUpon>FormParte3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parte III\FormNumeroLineas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parte III\FormNumeroLineas.designer.cs">
+      <DependentUpon>FormNumeroLineas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Problema de la L\FormPL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Problema de la L\FormPL.designer.cs">
+      <DependentUpon>FormPL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TitleBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Viajante\FormViajante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Viajante\FormViajante.designer.cs">
+      <DependentUpon>FormViajante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Viajante\Grafico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Viajante\Grafico.designer.cs">
+      <DependentUpon>Grafico.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parte III\FormParte3.resx">
+      <DependentUpon>FormParte3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parte III\FormNumeroLineas.resx">
+      <DependentUpon>FormNumeroLineas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Problema de la L\FormPL.resx">
+      <DependentUpon>FormPL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Viajante\FormViajante.resx">
+      <DependentUpon>FormViajante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viajante\Grafico.resx">
+      <DependentUpon>Grafico.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
